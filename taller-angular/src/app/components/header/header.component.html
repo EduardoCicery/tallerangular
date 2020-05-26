@@ -1,0 +1,21 @@
+
+<div class="head" *ngFor="let img of imagen" >
+  
+  <img class="logo" [src]="img" alt="sorry, not found">
+  
+  
+  <nav class="menu"> <!--menu de navegacion-->
+    <ul>
+      <ul>
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/citas">Citas</a></li>
+        <li><a routerLink="/nosotros">Nosotros</a></li>
+        <li><a routerLink="/contacto">Contacto</a> </li>
+    </ul>
+    </ul>
+  </nav>
+  <div class="icono" *ngFor="let icon of icono">
+    <img [src]="icon" alt="" >
+  </div>
+  
+</div>

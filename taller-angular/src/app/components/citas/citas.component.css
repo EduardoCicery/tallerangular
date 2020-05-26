@@ -1,0 +1,15 @@
+.card{
+    width: 40%;
+    height: auto;
+    display: block; 
+    justify-content: center;
+    flex-wrap: wrap;/* para que cuando no quepa la card en la pantalla entonces se baje */
+    margin: auto;
+    margin-top: 100px;
+    }
+div{
+    background-image: url(/taller-angular/src/assets/img/fondo.jpg);
+}
+h1{
+    color: rgb(12, 105, 148);
+}

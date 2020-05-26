@@ -1,0 +1,52 @@
+footer{
+    width: 100%;
+    padding-top: 0;
+    margin-top: auto;
+}
+.iconosredes{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 33%;
+}
+.ajusteicono{
+    display: inline-block;
+    margin: 30px 35px;
+}
+.ajusteicono img{
+    padding: 25px;
+}
+.ajusteicono a{
+    height: 100px;
+    width: auto;
+}
+.textofooter{
+    padding-top: 8px;
+    width: 100%;
+    
+    text-align: center;
+    font-size: 15px;
+    background-color: grey;
+    height: 80px;
+    color: whitesmoke;
+}
+.f1li{
+    background-color: rgb(12, 105, 148);
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.map{
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    letter-spacing: 1px;
+    /* font-family: cursive; */
+    color: black;
+    font-size: auto;
+    margin-left: 5%;
+    text-align: center;
+ 
+}
+
